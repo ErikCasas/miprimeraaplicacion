@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
+/* Estilos generales */
+body {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(186, 186, 186);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  font-weight: 300;
+}
+
+.bg-li-img {
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  padding-left: 40px;
+  padding-bottom: 7px;
+}
+.grid {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(12, auto);
+  grid-template-columns: 450px 650px;
+}
+
+.box {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px 0 40px;
+}
+
+/* Encabezado */
+
+.header {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.tittle-section {
+  font-size: 1.5vw;
+  font-weight: bolder;
+  margin: 25px;
+}
+
+.text-tittle {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vw;
+  color: black;
+  font-weight: bold;
+}
+/* Contact */
+.contac {
+  grid-row: 2/5;
+}
+
+.contac > ul > li:hover {
+  font-weight: bolder;
+}
+
+/* Perfil profesional */
+.profile {
+  grid-area: 2 / 2 / 7/ 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-profile {
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Direccion */
+.adress {
+  grid-row: 5/ 7;
+}
+/* Experiencia */
+.exp {
+  grid-area: 7/2/13/3;
+}
+
+/* Habilidades */
+.habilities {
+  grid-row: 7/13;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.react {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png");
+}
+
+.javaScript {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png");
+}
+
+.work {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2583/2583214.png");
+}
+.sql {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4299/4299956.png");
+}
+
+.nosql {
+  background-image: url("https://www.javacodegeeks.com/wp-content/uploads/2018/12/3-300x300.png");
+}
+
+.typeScript {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png");
+}
+
+.node {
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png");
+}
+
+.express {
+  background-image: url("https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png");
+}
+
+.node {
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png");
+}
+
+.jest {
+  background-image: url("https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png");
+}
+
+.linkedin {
+  background-image: url("https://cdn-icons-png.flaticon.com/256/174/174857.png");
+}
+
+.gmail {
+  background-image: url("https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png");
+}
+
+.whastsapp {
+  background-image: url("https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png");
+}
+
+.number {
+  background-image: url("https://assets.stickpng.com/thumbs/5a452601546ddca7e1fcbc87.png");
+}
+
+.github {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+}
+
+.country {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/197/992/non_2x/world-png.png");
+}
+
+.postal {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/71/71222.png");
+}
